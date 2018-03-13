@@ -16,30 +16,33 @@
 
         <h4> Player 1 </h4>
 
-        <h2 id="resultPlayer1"> "Result" </h2>
+        <h2 id="resultPlayer1"> Choose </h2>
 
-        <button onclick="submitRock1()"> Rock </button>
+        <button id="rockButton1" onclick="submitRock1()"> Rock </button>
 
-        <button onclick="submitPaper1()"> Paper </button>
+        <button id="paperButton1" onclick="submitPaper1()"> Paper </button>
 
-        <button onclick="submitScissors1()"> Scissors </button>
+        <button id="scissorsButton1" onclick="submitScissors1()"> Scissors </button>
 
       </section>
+
+      <button class="gameButton" onclick="playGame()">Battle</button>
 
       <section class="player-two">
         
           <h4> Player 2 </h4>
   
-          <h2 id="resultPlayer2"> "Result" </h2>
+          <h2 id="resultPlayer2"> Choose </h2>
   
-          <button onclick="submitRock2()"> Rock </button>
+          <button id="rockButton2" onclick="submitRock2()"> Rock </button>
   
-          <button onclick="submitPaper2()"> Paper </button>
+          <button id="paperButton2" onclick="submitPaper2()"> Paper </button>
   
-          <button onclick="submitScissors2()"> Scissors </button>
+          <button id="scissorsButton2" onclick="submitScissors2()"> Scissors </button>
   
         </section>
 
+        <button class="gameButton" onclick="reset()"> Play again?</button>
 
      </div>
 
