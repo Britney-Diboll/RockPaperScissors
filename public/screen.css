@@ -7,3 +7,19 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+
+.flex{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 1em;
+  padding: 1em;
+}
+
+.player-one, .player-two{
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 1em;
+  padding: 1em;
+}

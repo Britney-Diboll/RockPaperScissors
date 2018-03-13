@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tic Tac</title>
-    <link rel="stylesheet" href="/screen.css">
+    <link rel="stylesheet" href="./screen.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
+
+    <header> <h1> Rock-Paper-Scissors </h1> </heaader>
+
+    <div class="flex">
+
+      <section class="player-one">
+
+        <h4> Player 1 </h4>
+
+        <h2 id="resultPlayer1"> "Result" </h2>
+
+        <button onclick="submitRock1()"> Rock </button>
+
+        <button onclick="submitPaper1()"> Paper </button>
+
+        <button onclick="submitScissors1()"> Scissors </button>
+
+      </section>
+
+      <section class="player-two">
+        
+          <h4> Player 2 </h4>
+  
+          <h2 id="resultPlayer2"> "Result" </h2>
+  
+          <button onclick="submitRock2()"> Rock </button>
+  
+          <button onclick="submitPaper2()"> Paper </button>
+  
+          <button onclick="submitScissors2()"> Scissors </button>
+  
+        </section>
+
+
+     </div>
+
+    <script src="./main.js" charset="utf-8"></script>
   </body>
 </html>
